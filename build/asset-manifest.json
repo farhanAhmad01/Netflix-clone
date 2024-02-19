@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6ed5d5d8.css",
+    "main.js": "/static/js/main.0ef4683f.js",
+    "static/media/Poppins-Bold.ttf": "/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
+    "static/media/netflix.jpg": "/static/media/netflix.a4b76047effdb99166cc.jpg",
+    "index.html": "/index.html",
+    "main.6ed5d5d8.css.map": "/static/css/main.6ed5d5d8.css.map",
+    "main.0ef4683f.js.map": "/static/js/main.0ef4683f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ed5d5d8.css",
+    "static/js/main.0ef4683f.js"
+  ]
+}

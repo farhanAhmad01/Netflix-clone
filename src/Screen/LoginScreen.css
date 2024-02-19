@@ -1,0 +1,92 @@
+.loginScreen {
+  position: relative;
+  height: 100%;
+  background-image: url("/public/netflix.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.loginScreen-logo {
+  width: 9rem;
+  position: fixed;
+  left: 2rem;
+  object-fit: contain;
+  margin-top: 1rem;
+}
+.loginScreen-body{
+    font-size: medium;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    color: white;
+    padding: 20px;
+}
+
+.loginScreen-body > h2{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom:10px ;
+    
+}
+.loginScreen-body > h3{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 2px;
+    margin-bottom: 20px;
+}
+
+.loginScreen-gradient {
+  width: 100%;
+  z-index: 1;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+     rgba(0, 0, 0, 0.8) 100%
+  );
+}
+
+.loginbtn {
+  position: fixed;
+  right: 2rem;
+  margin-top: 1rem;
+  padding: 5px 5px;
+  background-color: rgb(241, 4, 4);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 10%;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.loginbtn:hover {
+  transition: background-color 0.3s ease;
+  color: rgb(226, 219, 219);
+  background-color: rgb(66, 63, 63);
+}
+
+.loginScreen-input > form > input{
+    padding: 10px;
+    outline: none;
+    outline-width: 0;
+    height: 30px;
+    width:30%;
+    border: none;
+    max-width: 500px;
+}
+
+.loginScreen-getStarted{
+    cursor: pointer;
+    padding:9px 20px;
+    font-size: 1rem;
+    counter-reset: white;
+    background-color: #e58914;
+    border: none;
+}
+
+
