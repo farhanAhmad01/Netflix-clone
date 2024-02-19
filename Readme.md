@@ -1,5 +1,7 @@
 [Live Demo](https://netflix-clone-3e25b.web.app/)
 
+To see My site first click on SignUp then SignIn
+
 # Intro
 ![alt text](public/netflix1.png)
 # Signup
@@ -7,5 +9,3 @@
 # Main
 ![alt text](public/Netflix.png)
 
-
-To see My site first click on SignUp then SignIn
